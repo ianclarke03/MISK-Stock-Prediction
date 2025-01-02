@@ -1,0 +1,10 @@
+alpaca_client.py:	We weren't able to achieve SMS messagind due to toll-free numbers needing verification (creating in account in twilio, same with another service)
+alpaca_client.py/app.py:	Emmisions to the front end (emit_message) acts very strangely and only works in some cases. Likely due to threading issues like some blocking threads since it is async but it works to at least send summarized news data to a route in a dict
+alpaca_client.py:	AWS s3 bucket function does not work, could not get it so that the images generated were sent to s3 but that doesn't matter much since messanging did not work
+components/element.tsx:	Ticker page just shows sample stock data, not a graph from the actual stock.
+frontend/src/pages/Login_page/login.tsx:	Users cannot press the Go back one page button in the browser's search bar, implemented a button that redirects to the homepage instead
+frontend/src/pages/Profile_Page/profile.tsx:	Had this weird bug where the userinfo at top would be infinitely loading after doing some action but I couldnt replicate it and it seems to be working now as intended.
+frontend/src/pages/Profile_Page/profile.tsx:	styling issues, theres just a lot of spacing that couldve been easily fixed, just ran out of time
+sitewide:	doesnt have a state that keeps track of light or dark mode. wouldve been nice so we didnt have to keep clicking the button to change it to our preferences
+frontend/src/pages/Profile_Page/profile.tsx:	if you have a saved login, in dark mode, the fields in the update credentials section look a little weird.
+frontend/src/pages/Profile_Page/profile.tsx:	when updating email if you add a space some where like for example "sabeethossain11@gmail.com " the email gets updated in that form and you will need to type that extra space when logging in. This might be occuring with password and username too if you add an extra space somewhere intentionally or by accident
