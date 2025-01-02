@@ -15,7 +15,7 @@ const SearchBar = () => {
 
  {
             params: {
-              key: 'AIzaSyDXIG-4CXfivQ2giz4wpnPpPk4HahIfjjw',
+              key: 'google_key',
               cx: '47eb1c97d0a474034q',
               q: query
             },

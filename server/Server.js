@@ -1,3 +1,4 @@
+import dotenv from 'dotenv';
 const express = require('express');
 const axios = require('axios');
 
@@ -9,7 +10,7 @@ app.get('/search', (req, res) => {
   // Make a GET request to the Google Custom Search Engine API
   axios.get('https://cse.google.com/cse.js?cx=c1d57647cdea0430a', {
     params: {
-      key: 'AIzaSyDXIG-4CXfivQ2giz4wpnPpPk4HahIfjjw', // Replace 'YOUR_API_KEY' with your actual API key
+      key: 'google_key', // Replace 'YOUR_API_KEY' with your actual API key
       cx: '3911450170-b8n9atsjoiigo6op44gviesnrgflmo5c.apps.googleusercontent.com', // Replace 'YOUR_SEARCH_ENGINE_ID' with your actual search engine ID
       q: req.query.q // The search query passed as a query parameter
     }
