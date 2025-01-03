@@ -3,7 +3,7 @@
 Misk is a stock prediction app
 
 Link to a presentation of the app: 
-file:///home/ianclarke/Downloads/Copy%20of%20Final%20Presentation.pdf
+https://drive.google.com/file/d/1HPeyJ_1_vnzPnBuqyvN-My-i61ro1Vrj/view?usp=sharing
 
 # Some video demonstrations
 Demos of new users and their tickers being added to the database:
