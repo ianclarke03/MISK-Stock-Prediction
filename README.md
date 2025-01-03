@@ -1,3 +1,15 @@
+# Project Overview
+
+Misk is a stock prediction app
+
+Link to a presentation of the app: 
+
+# Some video demonstrations
+Demos of new users and their tickers being added to the database:
+https://www.youtube.com/watch?v=Ww9wg4RvuDM
+
+https://www.youtube.com/watch?v=56g3UfrS4Ek
+
 # Final Project Build Instructions
 
 
