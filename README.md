@@ -1,6 +1,7 @@
 # Project Overview
 
-Misk is a stock prediction app
+The MISK Stock Prediction project is a comprehensive application designed to forecast stock prices. It integrates a Flask-based backend with a React frontend, utilizing machine learning models for predictive analytics. The system incorporates real-time data from the Alpaca API and employs OpenAI's GPT for natural language processing tasks. Additionally, it features a PostgreSQL database for data storage and is deployed on Heroku for cloud-based accessibility.
+
 
 Link to a presentation of the app: 
 https://drive.google.com/file/d/1HPeyJ_1_vnzPnBuqyvN-My-i61ro1Vrj/view?usp=sharing
